@@ -1,0 +1,18 @@
+/*
+60 of #8C3F4D
+30 of #D98494
+10 of #F2B279
+*/
+
+:root {
+
+/* var(--primaryColor) */
+--primaryColor:#8C3F4D;
+
+/* var(--secondaryColor) */
+--secondaryColor:#D98494;
+
+/* var(--accentColor) */
+--accentColor:#F2B279;
+
+}

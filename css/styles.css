@@ -1,4 +1,7 @@
+ 
+ @import url('global.css');
+ 
  body {
-     background-color: aqua;
+     background-color: var(--primaryColor);
      color: #fff;
  }
