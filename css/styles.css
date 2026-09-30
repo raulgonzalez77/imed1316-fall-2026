@@ -7,3 +7,11 @@
      background-color: var(--primaryColor);
      color: #fff;
  }
+
+
+ .montserrat-imed {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
