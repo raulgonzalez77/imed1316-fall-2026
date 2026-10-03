@@ -1,17 +1,21 @@
- 
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
- 
+
  @import url('global.css');
- 
+
  body {
-     background-color: var(--primaryColor);
+
      color: #fff;
  }
 
 
+ .font-awesome-icons {
+     background-color: var(--primaryColor);
+ }
+
+
  .montserrat-imed {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-}
+     font-family: "Montserrat", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: bold;
+     font-style: normal;
+ }
