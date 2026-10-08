@@ -1,30 +1,26 @@
- /*
- * {
-    margin:0;
-    padding: 0;
- }
-    */
- 
- 
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
- @import url('global.css');
+@import url('global.css');
 
- body {
+body {
 
-     color: #fff;
- }
+    color: #fff;
+}
 
 
- .font-awesome-icons {
-     background-color: var(--primaryColor);
-     padding: 25px;
- }
+.font-awesome-icons {
+    background-color: var(--primaryColor);
+    padding: 25px;
+}
+
+.font-awesome-icons i {
+    font-size: 60px;
+}
 
 
- .montserrat-imed {
-     font-family: "Montserrat", sans-serif;
-     font-optical-sizing: auto;
-     font-weight: bold;
-     font-style: normal;
- }
+.montserrat-imed {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
