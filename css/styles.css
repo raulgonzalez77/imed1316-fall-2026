@@ -29,8 +29,9 @@ body {
     color: #000;
     line-height: 1.2;
     padding: 15px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     margin: 15px;
+    text-align: center;
 }
 
 
