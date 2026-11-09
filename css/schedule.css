@@ -1,9 +1,9 @@
 @import 'global.css';
 @import 'main.css';
-@import 'styles.css';
+/*@import 'styles.css';*/
 
 .wrapper-body {
-    background-image: url("/images/background-image.jpg");
+    background-image: url("images/background-image.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
