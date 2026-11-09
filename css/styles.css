@@ -36,16 +36,7 @@ body {
 }
 
 
-.fa-footer {
-    background-color: var(--primaryColor);
-    padding: 25px;
-}
 
-.fa-footer i {
-    color: #fff;
-    font-size: 25px;
-    margin: 15px;
-}
 
 .imed-img {
     width: 100%;

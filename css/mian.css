@@ -6,10 +6,15 @@ h1, h2 {
     background-color: #ffffff !important;
 }
 
-.blinn-footer-container {
-    background-color: var(--secondaryColor) !important;
-    padding: 40px;
-    color: #ffffff;
+.fa-footer {
+    background-color: var(--primaryColor);
+    padding: 25px;
+}
+
+.fa-footer i {
+    color: #fff;
+    font-size: 25px;
+    margin: 15px;
 }
 
 
