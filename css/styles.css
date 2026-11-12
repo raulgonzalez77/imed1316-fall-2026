@@ -58,6 +58,12 @@ body {
     color: white !important;
 }
 
+/* Carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1 !important;
+}
+
 /* Carousel arrows */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
