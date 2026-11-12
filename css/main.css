@@ -50,3 +50,71 @@ blockquote cite {
 blockquote cite::before {
     content: "\2014 \2009";
 }
+
+
+
+/*overrides*/
+
+
+/* Accessible Bootstrap navigation */
+.fragrance-nav {
+    background-color: var(--primaryColor);
+}
+
+/* Navigation links */
+.fragrance-nav .nav-link,
+.fragrance-nav .nav-link.active {
+    color: white;
+}
+
+/* Hover and keyboard focus */
+.fragrance-nav .nav-link:hover,
+.fragrance-nav .nav-link:focus-visible {
+    color: var(--accentColor);
+}
+
+/* Disabled navigation item */
+.fragrance-nav .nav-link.disabled {
+    color: white;
+    opacity: 1;
+}
+
+/* Dropdown menu */
+.fragrance-nav .dropdown-menu {
+    background-color: white;
+}
+
+.fragrance-nav .dropdown-item {
+    color: var(--primaryColor);
+}
+
+.fragrance-nav .dropdown-item:hover,
+.fragrance-nav .dropdown-item:focus {
+    background-color: var(--secondaryColor);
+    color: black;
+}
+
+/* Search button */
+.fragrance-search-btn {
+    background-color: var(--accentColor);
+    color: black;
+}
+
+.fragrance-search-btn:hover,
+.fragrance-search-btn:focus {
+    background-color: var(--secondaryColor);
+    color: black;
+}
+
+/* Keyboard focus indicator */
+.fragrance-nav a:focus-visible,
+.fragrance-nav button:focus-visible,
+.fragrance-nav input:focus-visible {
+    outline: 3px solid var(--accentColor);
+    outline-offset: 2px;
+}
+
+/* Mobile menu button */
+.fragrance-nav .navbar-toggler {
+    background-color: white;
+}

@@ -1,14 +1,17 @@
-
 <header>
     <!-- top navigation bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg fragrance-nav" aria-label="Main navigation">
         <div class="container-fluid">
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -18,26 +21,34 @@
                         <a class="nav-link" href="schedule.html">Fragrance Schedule</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="#"
+                            role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Explore Fragrances
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Floral & Fresh</a></li>
-                            <li><a class="dropdown-item" href="#">Woody & Amber</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
+                            <li><a class="dropdown-item" href="#">Floral &amp; Fresh</a></li>
+                            <li><a class="dropdown-item" href="#">Woody &amp; Amber</a></li>
+                            <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="#">Find Your Signature Scent</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Fragrance Reviews (Coming Soon)</a>
+                        <span class="nav-link disabled">
+                            Fragrance Reviews (Coming Soon)
+                        </span>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search Fragrances" aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+
+                <form class="d-flex align-items-center" role="search">
+                    <label for="fragrance-search" class="visually-hidden">
+                        Search Fragrances
+                    </label>
+                    <input id="fragrance-search" class="form-control me-2"
+                        type="search" placeholder="Search Fragrances">
+                    <button class="btn fragrance-search-btn" type="submit">
+                        Search
+                    </button>
                 </form>
             </div>
         </div>
