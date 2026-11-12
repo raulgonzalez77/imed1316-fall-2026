@@ -41,3 +41,17 @@ body {
 .imed-img {
     width: 100%;
 }
+/*override button*/
+/* Search button */
+.btn-search-imed {
+    background-color: var(--primaryColor) !important;
+    border-color: var(--primaryColor) !important;
+    color: white !important;
+}
+
+.btn-search-imed:hover,
+.btn-search-imed:focus {
+    background-color: var(--primaryColor) !important;
+    border-color: var(--primaryColor) !important;
+    color: white !important;
+}
