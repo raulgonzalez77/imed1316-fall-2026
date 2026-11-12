@@ -41,6 +41,8 @@ body {
 .imed-img {
     width: 100%;
 }
+
+
 /*override button*/
 /* Search button */
 .btn-search-imed {
@@ -54,4 +56,12 @@ body {
     background-color: var(--primaryColor) !important;
     border-color: var(--primaryColor) !important;
     color: white !important;
+}
+
+/* Carousel arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black !important;
+    border-radius: 5px;
+    padding: 20px;
 }
